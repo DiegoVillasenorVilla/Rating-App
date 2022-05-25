@@ -27,7 +27,7 @@ export const Rating = () => {
         <div className="bottom-rating-container">
           <Rate rating={rating} onRating={rate =>  setRating(rate)} />
           <p className="rating-p"> Rating - {rating} </p>
-          <Link to="/Thanks" style={{ textDecortation: "none"}}>
+          <Link to="/Rating-App/Thanks" style={{ textDecortation: "none"}}>
             <button className="submit-button">Submit</button>
           </Link>
         </div>
